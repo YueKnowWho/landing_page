@@ -1,0 +1,95 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #E5E7eb;
+    font-size: 18px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding: 20px 200px;
+}
+.header-text {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    padding: 40px 200px 100px;
+    gap: 32px;
+}
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+.pitch p {
+    font-size: 18px;
+    margin-top: 0;
+    color: #E5E7eb;
+}
+.pitch{
+    flex: 1 1 50%;
+}
+.placeholder-img {
+    display: flex;
+    background: gray;
+    flex: 1 1 50%;
+    color: #E5E7eb;
+    justify-content: center;
+    align-items: center;
+}
+.pitch button {
+    background:#3882f6;
+    color: #E5E7eb;
+    border-radius: 6px;
+    padding: 4px 16px;
+    border: none;
+}
+.gallery {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.item_group {
+    display: flex;
+    gap: 50px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.image {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+}
+.item p {
+    text-align: center;
+}
