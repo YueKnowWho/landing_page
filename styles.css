@@ -57,10 +57,12 @@ h1 {
 }
 
 .pitch button {
+    font-size: 18px;
+    font-weight: 300;
     background:#3882f6;
     color: #E5E7eb;
     border-radius: 6px;
-    padding: 4px 16px;
+    padding: 4px 30px;
     border: none;
 }
 .gallery {
@@ -136,12 +138,14 @@ h2 {
 }
 
 .cta_container button {
+    font-size: 18px;
+    font-weight: 300;
     background-color: #3882f6;
     color:#f9faf8;
     border-radius: 6px;
     border: 2px solid #E5E7eb;
     flex: none;
-    padding: 4px 16px;
+    padding: 4px 30px;
 }
 
 .footer {
