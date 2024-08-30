@@ -47,16 +47,16 @@ h1 {
     margin: 0px 0px 10px 0px;
     color: #E5E7eb;
 }
-.placeholder-img {
+.pitch {
+    
+}
+.hero img {
     display: flex;
     background: gray;
-    width: 400px;
-    height: 300px;
-    flex: none;
     color: #E5E7eb;
-    justify-content: center;
-    align-items: center;
+    max-height: 30vh;
 }
+
 .pitch button {
     background:#3882f6;
     color: #E5E7eb;
